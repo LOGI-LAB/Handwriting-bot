@@ -1,9 +1,3 @@
-
-# © BugHunterCodeLabs ™
-# © bughunter0
-# 2021
-# Copyright - https://en.m.wikipedia.org/wiki/Fair_use
-
 import pyrogram
 from pyrogram import Client, filters
 from pyrogram.types import User, Message
@@ -43,7 +37,7 @@ async def text(bot, message):
         await bot.send_photo(
             chat_id=chat_id,
             photo=file_name,
-            caption="Join @BugHunterBots"
+            caption="For more bots join --> @LGBots"
         )
         await txt.delete()
         os.remove(file_name)
